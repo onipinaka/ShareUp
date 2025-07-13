@@ -1,5 +1,6 @@
 import React from 'react'
 import PrimaryBtn from '../components/PrimaryBtn'
+import Send from './Send'
 
 function Home() {
   return (
@@ -7,6 +8,7 @@ function Home() {
         
         <PrimaryBtn navigateSite='/send' label='SEND'/>
         <PrimaryBtn navigateSite='/recieve' label='RECIEVE'/>
+    
         
     </div>
   )

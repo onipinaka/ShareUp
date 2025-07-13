@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Send = () => {
-  return (
-    <div>Send</div>
-  )
-}
+    return (
+        <>
+            
+        </>
+    )
+};
 
-export default Send
+export default Send;

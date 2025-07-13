@@ -1,15 +1,18 @@
 import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import Mainlayout from '../layout/Mainlayout.tsx'
-import Send from '../layout/Send.tsx'
-import Recieve from '../layout/Recieve.tsx'
+
+import Recieve from '../pages/Recieve.tsx'
+import Send from '../pages/Send.tsx'
+import Home from '../pages/Home.tsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Mainlayout/>,
     children: [
-      {path: "send", element: <Send/>}
+        {path: "", element: <Home/>}, 
+      {path: "send", element: <Send/>},
       {path: "recieve", element: <Recieve/>}
     ]
 
