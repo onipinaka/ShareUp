@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {  useNavigate } from 'react-router-dom'
 
 const PrimaryBtn = ({label, navigateSite}:{label:string, navigateSite:string}) => {

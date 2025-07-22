@@ -1,6 +1,6 @@
-import React from 'react'
+
 import PrimaryBtn from '../components/PrimaryBtn'
-import Send from './Send'
+
 
 function Home() {
   return (
