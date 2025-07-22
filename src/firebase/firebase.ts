@@ -5,13 +5,13 @@ import { collection, addDoc } from "firebase/firestore";
 
 
 const firebaseConfig = {
-    apiKey: 'AIzaSyAcW-nmpGGEcSo3WL0uSmKPbx7LQjLmyU8',
-    authDomain: 'shareup-e8008.firebaseapp.com',
-    projectId: 'shareup-e8008',
-    storageBucket: 'shareup-e8008.firebasestorage.app',
-    messagingSenderId: '210621028097',
-    appId: '1:210621028097:web:043dd62dd49f64ce86ad00',
-    measurementId: 'G-7PDJWYNRY0',
+    apiKey: process.env.FIREBASE_API || '',
+    authDomain: process.env.FIREBASE_AUTH_DOMAIN || '',
+    projectId: process.env.FIREBASE_PROJECT_ID || '',
+    storageBucket: process.env.FIREBASE_STORAGE_BUCKET || '',
+    messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID || '',
+    appId: process.env.FIREBASE_APP_ID || '',
+    measurementId: process.env.FIREBASE_MEASUREMENT_ID || '',
 };
 
 // Initialize Firebase

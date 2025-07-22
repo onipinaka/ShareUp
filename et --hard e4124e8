@@ -1,0 +1,7 @@
+[33m7bdf62f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33me4124e8[m HEAD@{1}: commit: done
+[33m7bdf62f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{2}: commit: firebase intitalised
+[33m6558588[m HEAD@{3}: reset: moving to origin/main
+[33me253235[m HEAD@{4}: commit: added buttons
+[33md52b72d[m HEAD@{5}: Branch: renamed refs/heads/master to refs/heads/main
+[33md52b72d[m HEAD@{7}: commit (initial): project initialized
