@@ -69,7 +69,7 @@ const Recieve = () => {
             </form>
         </div>
 
-        {fileInfo && (
+        {fileInfo && fileInfo.url && (
             <div className='bg-white rounded-2xl shadow-lg p-6 mt-6 w-full max-w-md'>
                 <div className='text-center space-y-4'>
                     <div className='bg-green-100 p-4 rounded-xl'>
